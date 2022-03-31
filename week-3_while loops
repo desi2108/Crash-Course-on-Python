@@ -1,4 +1,4 @@
-Fill in the blanks to make the print_prime_factors function print all the prime factors of a number. A prime factor is a number that is prime and divides another without a remainder.
+(1) Fill in the blanks to make the print_prime_factors function print all the prime factors of a number. A prime factor is a number that is prime and divides another without a remainder.
 
 def print_prime_factors(number):
   # Start with two, which is the first prime
@@ -21,7 +21,7 @@ print_prime_factors(100)
 
 
 
-The following code can lead to an infinite loop. Fix the code so that it can finish successfully for all numbers.
+(2) The following code can lead to an infinite loop. Fix the code so that it can finish successfully for all numbers.
 
 Note: Try running your function with the number 0 as the input, and see what you get!
 
@@ -43,7 +43,7 @@ print(is_power_of_two(8)) # Should be True
 print(is_power_of_two(9)) # Should be False
 
 
-Fill in the empty function so that it returns the sum of all the divisors of a number, without including it. A divisor is a number that divides into another without a remainder.
+(3) Fill in the empty function so that it returns the sum of all the divisors of a number, without including it. A divisor is a number that divides into another without a remainder.
 
 def sum_divisors(n):
   # Return the sum of all divisors of n, not including n
